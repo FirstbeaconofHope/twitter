@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-div {
+  display: flex;
+}
+
+.blue-div {
+  background-color: #1DA1F2;
+  height: 92vh;
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom left, blue, #1DA1F2 60%);
+}
+
+.paragraph-container-blue-half {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.white-div {
+  background-color: white;
+  height: 92vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph-container-white-half {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-container {
+  position: absolute;
+  top: 30px;
+  display: flex;
+}
+
+.login-form-input {
+  padding-left: 7px;
+  height: 42px;
+  width: 190px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.login-form-input:focus{
+  color: blue;
+}
+
+.login-form-button {
+  height: 45px;
+  width: 63px;
+  margin-left: 15px;
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 40px;
+  border: 1px outset #1DA1F2;
+  color: #1DA1F2;
+  font-weight: bold;
+  outline: none;
+}
+
+.login-form-button:hover {
+  background-color: #aed3eb;
+  cursor: pointer;
+}
+
+.sign-up-button {
+  border: none;
+  border-radius: 20px;
+  height: 32px;
+  width: 370px;
+  background-color: #1DA1F2;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin: 15px 0;
+  outline: none;
+}
+
+.sign-up-button:hover {
+  border: 3px double white;
+  background-color: #80cdff;
+  cursor: pointer;
+}
+
+.login-button {
+  border: 1px solid #1DA1F2;
+  border-radius: 20px;
+  height: 32px;
+  width: 370px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  background-color: white;
+  color: #1DA1F2;
+  outline: none;
+}
+
+.login-button:hover {
+  background-color: #aed3eb;
+  border: 3px double white;
+  cursor: pointer;
+}
+
+.Forgot-password:hover {
+  cursor: pointer;
+  border-bottom: 1px solid lightgrey;
+  width: 103.2px;
+}
+
+.footer {
+  width: 100%;
+  height: 58px;
+  border: 1px solid lightgrey;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
